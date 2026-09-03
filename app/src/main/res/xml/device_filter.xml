@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+    GBFlash uses a CH340 (WCH CH34x family) USB-to-serial chip.
+    vendor-id/product-id are decimal here: 0x1A86 = 6790, 0x7523 = 29987.
+    This lets Android offer "Open with GBFlash Dumper" when the device is plugged in,
+    and lets us request permission without the user hunting for the app first.
+-->
+<resources>
+    <usb-device vendor-id="6790" product-id="29987" />
+</resources>
